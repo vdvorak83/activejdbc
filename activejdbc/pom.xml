@@ -18,7 +18,7 @@
         <jdbc.driver>org.h2.Driver</jdbc.driver>
         <jdbc.url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1</jdbc.url>
         <jdbc.user>sa</jdbc.user>
-        <jdbc.password />
+        <jdbc.password/>
         <db>h2</db>
     </properties>
 
@@ -222,7 +222,7 @@
                     </includes>
                     <systemPropertyVariables>
                         <oracle.jdbc.J2EE13Compliant>true</oracle.jdbc.J2EE13Compliant>
-                        <activejdbc.log />
+                        <activejdbc.log/>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
@@ -250,7 +250,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
-            <version>1.7.5</version>
+            <version>1.7.35</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
